@@ -41,9 +41,9 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/src/assets/kinglogo.jpg"
+                src="/src/assets/logo4.png"
                 alt="King Logo"
-                className="h-15 w-20"
+                className="h-15 w-15 invert"
               />
             </Link>
 
