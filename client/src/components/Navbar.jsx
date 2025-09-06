@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import LoginModal from "./LoginModal.jsx";
 import SignupModal from "./SignupModal.jsx";
+import logo from "../assets/logo4.png";
 
 const navLink =
   "uppercase text-lg font-bold tracking-wide text-slate-700 hover:text-[#1B4A8B] transition-colors px-4 py-2";
@@ -41,7 +42,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
               <img
-                src="/src/assets/logo4.png"
+                src={logo}
                 alt="King Logo"
                 className="h-15 w-15 invert"
               />
